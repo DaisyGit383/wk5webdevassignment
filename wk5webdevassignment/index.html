@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student Details</title>
+  <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Student Information</h1>
+  </header>
+
+  <main>
+    <section class="profile">
+      <h2 id="studentName">Name: Kim Eung</h2>
+      <p id="studentCourse">Course: Software Engineering</p>
+      <p id="studentYear">Year: Final Year</p>
+    </section>
+
+    <section class="grades">
+      <h2>Grades</h2>
+      <ul id="gradesList"></ul>
+      <button onclick="calculateAverage()">Calculate Average </button>
+      <p id="averageResult"></p>
+    </section>
+
+    <section class="actions">
+      <h2>Actions</h2>
+      <button onclick="change()">Change Course</button>
+      <button onclick="listHobbies()">Show Hobbies</button>
+      <ul id="hobbyList"></ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; @Designed and Developed by Daisy </p>
+  </footer> 
+
+  <script src="js/script.js"></script>
+</body>
+</html>
