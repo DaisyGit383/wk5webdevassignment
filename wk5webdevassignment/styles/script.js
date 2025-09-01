@@ -1,10 +1,10 @@
 // Student Object (variables)
 let student = {
-  name: "John Doe",
-  course: "Computer Science",
-  year: 2,
+  name: "Park Sojun",
+  course: "Software Engineering",
+  year: Final,
   grades: [75, 82, 90, 68, 88],
-  hobbies: ["Reading", "Coding", "Football"]
+  hobbies: ["Travelling", "Coding", "Football"]
 };
 
 // Functions
@@ -68,3 +68,4 @@ function listHobbies() {
 
 // Run when page loads
 displayGrades();
+
